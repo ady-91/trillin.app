@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/ab10e9d497.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Trillin &mdash; Your all-in-one booking app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="img/logo.png" alt="logo" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search hotels"
+          />
+          <button class="search__button">
+            <i
+              class="search__button--icon fa-solid fa-magnifying-glass fa-2xs"
+            ></i>
+          </button>
+        </form>
+
+        <nav class="user__nav">
+          <div class="user__nav--box">
+            <div class="user__nav--box-icon">
+              <i class="user__nav--icon fa-solid fa-bookmark"></i>
+              <span class="user__nav--notification">7</span>
+            </div>
+          </div>
+          <div class="user__nav--box">
+            <div class="user__nav--box-icon">
+              <i class="user__nav--icon fa-solid fa-message"></i>
+              <span class="user__nav--notification">14</span>
+            </div>
+          </div>
+          <div class="user__nav--box">
+            <div class="user__nav--user">
+              <img
+                src="img/user.jpeg"
+                alt="User-photo"
+                class="user__nav--user-photo"
+              />
+              <span class="user__nav--user-name">Andrei</span>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="sidebar__nav">
+            <li class="sidebar__nav--item sidebar__nav--item-active">
+              <a class="sidebar__nav--link" href="#">
+                <i class="sidebar__nav--icon fa-solid fa-house"></i
+                ><span class="sidebar__nav--text">Hotel</span></a
+              >
+            </li>
+            <li class="sidebar__nav--item">
+              <a class="sidebar__nav--link" href="#">
+                <i class="sidebar__nav--icon fa-solid fa-plane-departure"></i>
+                <span class="sidebar__nav--text">Flight</span></a
+              >
+            </li>
+            <li class="sidebar__nav--item">
+              <a class="sidebar__nav--link" href="#">
+                <i class="sidebar__nav--icon fa-solid fa-key"></i
+                ><span class="sidebar__nav--text">Car Rental</span></a
+              >
+            </li>
+            <li class="sidebar__nav--item">
+              <a class="sidebar__nav--link" href="#">
+                <i class="sidebar__nav--icon fa-solid fa-map"></i
+                ><span class="sidebar__nav--text">Tours</span></a
+              >
+            </li>
+          </ul>
+          <div class="copyright">
+            &copy; <span class="year"> 2000</span> by Trillin Agency. All rights
+            reserved.
+          </div>
+        </nav>
+        <main class="hotel-view">
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-1.webp"
+                alt="hotel-1"
+                class="gallery__item--img"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-2.webp"
+                alt="hotel-2"
+                class="gallery__item--img"
+              />
+            </figure>
+            <figure class="gallery__item">
+              <img
+                src="img/hotel-3.webp"
+                alt="hotel-3"
+                class="gallery__item--img"
+              />
+            </figure>
+          </div>
+          <div class="overview">
+            <div class="overview__textstars--box">
+              <p class="overview__text">The Azure Cove Resort</p>
+              <div class="overview__stars--box">
+                <i class="overview__star fa-solid fa-star"></i
+                ><i class="overview__star fa-solid fa-star"></i
+                ><i class="overview__star fa-solid fa-star"></i
+                ><i class="overview__star fa-solid fa-star"></i
+                ><i class="overview__star fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="overview__location">
+              <div class="overview__location--box">
+                <i
+                  class="overview__location--icon fa-solid fa-location-dot"
+                ></i>
+                <button class="overview__location--text">
+                  Albufeira, Portugal
+                </button>
+              </div>
+              <div class="overview__rate--box">
+                <p class="overview__rate">8.6</p>
+                <span class="overview__votes">429 votes</span>
+              </div>
+            </div>
+          </div>
+          <div class="details">
+            <div class="details__description">
+              <p class="details__description--text">
+                Perched majestically on the stunning cliffs of Albufeira,
+                Portugal, The Azure Cove Resort offers an unparalleled blend of
+                luxury, comfort, and breathtaking natural beauty. Overlooking
+                the turquoise waters of the Atlantic Ocean, this five-star haven
+                is a sanctuary for those seeking both relaxation and adventure
+                in the heart of the Algarve.
+              </p>
+              <p class="details__description--text">
+                Upon entering the resort, guests are welcomed by a spacious and
+                elegantly designed lobby, featuring contemporary decor that
+                harmoniously blends with traditional Portuguese elements. The
+                large windows and open spaces allow natural light to flood in,
+                creating an ambiance of airy sophistication.
+              </p>
+              <p class="details__description--text">
+                The Azure Cove Resort boasts 250 exquisitely appointed rooms and
+                suites, each designed with a keen eye for detail. From private
+                balconies, guests can enjoy panoramic views of the ocean, the
+                resort's lush gardens, or the charming town of Albufeira. The
+                rooms are furnished with plush bedding, modern amenities, and
+                thoughtful touches such as locally-inspired artwork and
+                handcrafted furniture.
+              </p>
+              <ul class="details__description--list">
+                <li class="details__description--item">Close to the beach</li>
+                <li class="details__description--item">Breakfast included</li>
+                <li class="details__description--item">Free airport shuttle</li>
+                <li class="details__description--item">
+                  Free wi-fi in all rooms
+                </li>
+                <li class="details__description--item">
+                  Air conditioning and heating
+                </li>
+                <li class="details__description--item">Pets allowed</li>
+                <li class="details__description--item">
+                  We speak all languages
+                </li>
+                <li class="details__description--item">Perfect for families</li>
+              </ul>
+              <div class="details__description--recomend">
+                <p class="details__description--recomend-text">
+                  Lucy and 3 other friends recomend this hotel.
+                </p>
+                <div class="details__description--recomend-friends">
+                  <img
+                    src="img/user-3.jpg"
+                    alt="recomend-user"
+                    class="details__description--recomend-photo"
+                  />
+                  <img
+                    src="img/user-4.jpg"
+                    alt="recomend-user"
+                    class="details__description--recomend-photo"
+                  />
+                  <img
+                    src="img/user-5.jpg"
+                    alt="recomend-user"
+                    class="details__description--recomend-photo"
+                  />
+                  <img
+                    src="img/user-6.jpg"
+                    alt="recomend-user"
+                    class="details__description--recomend-photo"
+                  />
+                </div>
+              </div>
+            </div>
+            <figure class="details__reviews">
+              <figure class="details__reviews--1">
+                <blockquote class="details__reviews--text">
+                  Our family vacation at The Azure Cove Resort was absolutely
+                  fantastic! Traveling with kids can be challenging, but the
+                  resort had everything we needed to keep everyone happy and
+                  entertained. The family suite was spacious, beautifully
+                  decorated, and had a large balcony with a wonderful view of
+                  the gardens and ocean.
+                </blockquote>
+                <figcaption class="details__reviews--about">
+                  <img
+                    class="details__reviews--img"
+                    src="img/user-1.jpg"
+                    alt="user 1"
+                  />
+                  <div class="details__reviews--user-box">
+                    <p class="details__reviews--name">Nicky Smith</p>
+                    <p class="details__reviews--date">Feb 23rd, 2023</p>
+                  </div>
+                  <span class="details__reviews--mark">10</span>
+                </figcaption>
+              </figure>
+              <figure class="details__reviews--2">
+                <blockquote class="details__reviews--text">
+                  My stay at The Azure Cove Resort was nothing short of magical.
+                  From the moment we arrived, the staff treated us like royalty,
+                  ensuring every aspect of our visit was perfect. Our room was
+                  spacious, elegantly decorated, and offered stunning views of
+                  the ocean.
+                </blockquote>
+                <figcaption class="details__reviews--about">
+                  <img
+                    class="details__reviews--img"
+                    src="img/user-2.jpg"
+                    alt="user 2"
+                  />
+                  <div class="details__reviews--user-box">
+                    <p class="details__reviews--name">Mariam Nielsen</p>
+                    <p class="details__reviews--date">Feb 28th, 2023</p>
+                  </div>
+                  <span class="details__reviews--mark">9.5</span>
+                </figcaption>
+              </figure>
+              <button class="show__all--btn">
+                Show all <span class="show__all--span">&rarr;</span>
+              </button>
+            </figure>
+          </div>
+          <div class="cta">
+            <h2 class="cta__text">
+              The azure cove resort is not usually available on our site.
+              Reserve now before it sells out!
+            </h2>
+            <button class="cta__btn">
+              <span class="cta__btn--span1">Book now</span>
+              <span class="cta__btn--span2">only 3 rooms left!</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
